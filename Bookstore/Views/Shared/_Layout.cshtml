@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    <div class="jumbotron" style="background-color: royalblue; color: white">
+        <span class="navbar-brand m-lg-2">Book Store</span>
+    </div>
+
+    <div class="row m-1 p-1">
+
+        <div id="categories" class="col-sm-3">
+            Filter
+        </div>
+
+        <div class="col-sm-9">
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    &copy; Dan Bell
+</footer>
+</html>
