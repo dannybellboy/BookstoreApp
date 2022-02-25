@@ -1,29 +1,29 @@
 ﻿<Properties StartupConfiguration="{0825950A-DAD6-4BF5-A430-5A80FA7DF346}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Infrastructure/UrlExtensions.cs">
     <Files>
-      <File FileName="Bookstore/Controllers/HomeController.cs" Line="25" Column="30" />
-      <File FileName="Bookstore/Views/Home/Index.cshtml" />
-      <File FileName="Bookstore/Views/Shared/_Layout.cshtml" />
-      <File FileName="Bookstore/Startup.cs" />
-      <File FileName="Bookstore/Views/Shared/BookSummary.cshtml" />
-      <File FileName="Bookstore/Program.cs" />
-      <File FileName="Bookstore/Infrastructure/PaginationTagHelper.cs" />
+      <File FileName="Bookstore/Pages/Purchase.cshtml.cs" Line="40" Column="66" />
+      <File FileName="Bookstore/Views/Shared/BookSummary.cshtml" Line="35" Column="12" />
+      <File FileName="Bookstore/Infrastructure/UrlExtensions.cs" Line="12" Column="1" />
+      <File FileName="Bookstore/Pages/Purchase.cshtml" Line="42" Column="7" />
+      <File FileName="Bookstore/Infrastructure/SessionExtensions.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-                <Node name="BookstoreContext.cs" selected="True" />
+              <Node name="Infrastructure" expanded="True">
+                <Node name="UrlExtensions.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Purchase.cshtml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

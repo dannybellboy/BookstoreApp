@@ -75,3 +75,8 @@
 /Users/dannybellboy/Projects/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
 /Users/dannybellboy/Projects/Bookstore/Bookstore/bin/Debug/netcoreapp3.1/libman.json
 /Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Categories/Default.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Purchase.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_PurchaseLayout.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs

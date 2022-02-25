@@ -3,31 +3,35 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Book Store</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
-    
+
     <div class="jumbotron" style="background-color: royalblue; color: white">
-        <span class="navbar-brand m-lg-2">Book Store</span>
+        <span class="navbar-brand" style="font-size: xx-large">
+            Book Store
+        </span>
     </div>
 
     <div class="row m-1 p-1">
 
-        <div id="categories" class="col-sm-3">
-            Filter
+        <div id="categories" class="col-3">
+            <vc:categories></vc:categories>
         </div>
 
-        <div class="col-sm-9">
+        <div class="col-9">
             <div>
                 @RenderBody()
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        &copy; Dan Bell
+    </footer>
 </body>
-<footer class="footer">
-    &copy; Dan Bell
-</footer>
 </html>

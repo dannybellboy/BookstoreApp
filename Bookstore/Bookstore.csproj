@@ -12,6 +12,10 @@
     <None Remove="Views\Shared\" />
     <None Remove="Infrastructure\" />
     <None Remove="Models\ViewModels\" />
+    <None Remove="Components\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Categories\" />
+    <None Remove="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -22,9 +26,15 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Categories\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\lib\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.22">

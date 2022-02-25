@@ -3,17 +3,17 @@
 
 @model Book
 
-<div class="card card-outline-primary m-1 p-1">
+<div class="card card-outline-primary m-1 p-1" style="width: 750px">
 
-    <div class="bg-opacity-75 p-1">
-        <h3>@Model.Title</h3>
+    <div class="card-header p-1">
+        <h3 style="font-size: x-large">@Model.Title</h3>
 
-        <span class="badge bg-info" style="float:right">
+        <span class="badge bg-info" style="float:right; font-size: medium">
             Price: $@Model.Price
         </span>
     </div>
 
-    <ul>
+    <ul style="font-size: large">
         <li>Author: @Model.Author</li>
         <li>Publisher: @Model.Publisher</li>
         <li>ISBN: @Model.Isbn</li>
@@ -21,4 +21,17 @@
         <li>Classification: @Model.Classification</li>
         <li>Page Count: @Model.PageCount</li>
     </ul>
+
+    <form method="post" asp-page="/Purchase">
+
+        <input type="hidden" asp-for="@Model.BookId" />
+        <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathandQuery()" />
+
+        <span class="card-text">
+            <button type="submit" class="btn btn-sm float-end">
+                <img src="https://www.tipsandtricks-hq.com/ecommerce/wp-content/uploads/2012/05/addtocart-green-with-cart-icon.png" />
+            </button>
+        </span>
+    </form>
 </div>
+
