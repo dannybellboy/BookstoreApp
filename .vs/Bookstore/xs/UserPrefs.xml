@@ -3,10 +3,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Infrastructure/UrlExtensions.cs">
     <Files>
       <File FileName="Bookstore/Pages/Purchase.cshtml.cs" Line="40" Column="66" />
-      <File FileName="Bookstore/Views/Shared/BookSummary.cshtml" Line="35" Column="12" />
+      <File FileName="Bookstore/Views/Shared/BookSummary.cshtml" />
       <File FileName="Bookstore/Infrastructure/UrlExtensions.cs" Line="12" Column="1" />
-      <File FileName="Bookstore/Pages/Purchase.cshtml" Line="42" Column="7" />
-      <File FileName="Bookstore/Infrastructure/SessionExtensions.cs" Line="1" Column="1" />
+      <File FileName="Bookstore/Pages/Purchase.cshtml" />
+      <File FileName="Bookstore/Infrastructure/SessionExtensions.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +17,7 @@
                 <Node name="UrlExtensions.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Purchase.cshtml" expanded="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True" />
