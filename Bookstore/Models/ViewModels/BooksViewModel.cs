@@ -8,5 +8,6 @@ namespace Bookstore.Models.ViewModels
         public IQueryable<Book> Books { get; set; }
 
         public PageInfo PageInfo { get; set; }
+
     }
 }

@@ -80,3 +80,6 @@
 /Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_PurchaseLayout.cshtml.g.cs
 /Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseSuccessful.cshtml.g.cs
+/Users/dannybellboy/Projects/Bookstore/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs
