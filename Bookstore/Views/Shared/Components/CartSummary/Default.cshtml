@@ -3,4 +3,22 @@
 
 @model Basket
 
-<button style="font-size:24px; color:black"><i class="fa fa-shopping-cart"></i> @Model.CalculateTotal().ToString("c")</button>
+
+@*Button trigger toast*@
+<button type="button" class="btn position-relative" style="font-size:24px; color:black; margin-right:25px">
+    <i class="fa fa-shopping-cart"></i> @Model.CalculateTotal().ToString("c")
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        @Model.Items.Count()
+        <span class="visually-hidden">unread messages</span>
+    </span>
+</button>
+
+
+
+@*<button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+    </span>
+</button>*@
