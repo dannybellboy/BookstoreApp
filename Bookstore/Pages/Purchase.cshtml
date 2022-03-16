@@ -26,7 +26,7 @@
                 <td>@i.Book.Price</td>
                 <td>@((i.Quantity * i.Book.Price).ToString("c"))</td>
 
-                <td class="text-center">
+                <td class="text-center table-danger">
                     <form method="post" asp-page-handler="Remove">
                         <input type="hidden" name="bookId" value="@i.Book.BookId" />
                         <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
@@ -39,8 +39,8 @@
 
     <tfoot>
         <tr>
-            <td colspan="3">Total:</td>
-            <td>@Model.basket.CalculateTotal().ToString("c")</td>
+            <td colspan="3" class="table-success">Total:</td>
+            <td class="table-success">@Model.basket.CalculateTotal().ToString("c")</td>
         </tr>
     </tfoot>
 </table>
